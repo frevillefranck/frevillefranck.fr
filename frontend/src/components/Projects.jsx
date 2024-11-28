@@ -86,7 +86,7 @@ export function Projects() {
         </h2>
 
         {/* Mobile Carousel */}
-        <div className="md:hidden">
+        <div className="lg:hidden">
           <div className="relative">
             <ProjectCard project={projects[currentIndex]} />
 
@@ -122,7 +122,7 @@ export function Projects() {
         </div>
 
         {/* Desktop Grid */}
-        <div className="hidden md:grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div className="hidden lg:grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {projects.map((project) => (
             <ProjectCard key={project.title} project={project} />
           ))}

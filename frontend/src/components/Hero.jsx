@@ -11,10 +11,10 @@ export function Hero() {
       }}
     >
       <div className="container mx-auto px-4 text-center relative z-10">
-        <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white">
+        <h1 className="text-5xl lg:text-7xl font-bold mb-6 text-white">
           Développeur Web Freelance
         </h1>
-        <p className="text-xl md:text-2xl mb-12 max-w-2xl mx-auto text-gray-200">
+        <p className="text-xl lg:text-2xl mb-12 max-w-2xl mx-auto text-gray-200">
           Je vous accompagne dans la création de sites web modernes et
           performants, adaptés à vos besoins."
         </p>

@@ -86,7 +86,7 @@ export function Contact() {
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-16">Contact</h2>
         <div className="max-w-4xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid lg:grid-cols-2 gap-8">
             <div>
               <h3 className="text-2xl font-semibold mb-6">
                 Parlons de votre projet
@@ -144,7 +144,7 @@ export function Contact() {
                 Envoyer
               </button>
               <ReCAPTCHA
-                sitekey="6LcJ2nkqAAAAAMxYARlvc8EgETfV7_UttRUko3hP"
+                sitekey="6LfDzYwqAAAAACI9iE4mBHOl8Nps2MuyjfpAyQLJ"
                 onChange={handleCaptchaChange}
               />
             </form>

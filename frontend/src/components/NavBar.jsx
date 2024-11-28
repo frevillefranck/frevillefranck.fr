@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-scroll';
-import { Code, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -21,7 +20,7 @@ const Navbar = () => {
           </div>
 
           {/* Desktop Menu */}
-          <div className="hidden md:flex space-x-8">
+          <div className="hidden lg:flex space-x-8">
             {menuItems.map((item) => (
               <a
                 key={item.label}
@@ -38,7 +37,7 @@ const Navbar = () => {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden"
+            className="lg:hidden"
             onClick={() => setIsOpen(!isOpen)}
             aria-label="Toggle menu"
           >
@@ -49,7 +48,7 @@ const Navbar = () => {
         {/* Mobile Menu */}
         <div
           className={`
-            md:hidden fixed inset-x-0 bg-black transition-all duration-300 ease-in-out border-t border-gray-800 
+            lg:hidden fixed inset-x-0 bg-black transition-all duration-300 ease-in-out border-t border-gray-800 
             ${
               isOpen
                 ? 'top-16 opacity-100 visible'

@@ -29,7 +29,7 @@ export function Skills() {
     <section id="competences" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-16">Compétences</h2>
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
           {skills.map((skill) => (
             <div key={skill.category} className="bg-gray-50 p-6 rounded-lg">
               <skill.icon className="w-12 h-12 text-indigo-600 mb-4" />

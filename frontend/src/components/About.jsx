@@ -7,8 +7,8 @@ export function About() {
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-16">À Propos</h2>
         <div className="max-w-6xl mx-auto">
-          <div className="flex flex-col md:flex-row items-center gap-12 mb-16">
-            <div className="w-full md:w-1/3">
+          <div className="flex flex-col lg:flex-row items-center gap-12 mb-16">
+            <div className="w-full lg:w-1/3">
               <div className="relative">
                 <div className="w-64 h-64 mx-auto overflow-hidden rounded-full shadow-xl">
                   <img
@@ -20,7 +20,7 @@ export function About() {
                 <div className="absolute inset-0 ring-8 ring-indigo-600 rounded-2xl transform -rotate-6 -z-10"></div>
               </div>
             </div>
-            <div className="w-full md:w-2/3 text-center md:text-left">
+            <div className="w-full lg:w-2/3 text-center lg:text-left">
               <h3 className="text-2xl font-bold mb-4 text-gray-800">
                 Développeur Web Passionné
               </h3>
@@ -42,7 +42,7 @@ export function About() {
             </div>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid lg:grid-cols-3 gap-8">
             <div className="text-center p-6 bg-white rounded-xl shadow-md">
               <User className="w-12 h-12 mx-auto mb-4 text-indigo-600" />
               <h3 className="text-xl font-semibold mb-2">Passionné</h3>
