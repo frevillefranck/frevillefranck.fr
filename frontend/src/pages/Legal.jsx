@@ -20,8 +20,8 @@ export function Legal() {
               Conformément aux dispositions des articles 6-III et 19 de la Loi
               n° 2004-575 du 21 juin 2004 pour la confiance dans l'économie
               numérique, il est précisé aux utilisateurs du site
-              www.unmondequisillumine.fr l'identité des différents intervenants
-              dans le cadre de sa réalisation et de son suivi.
+              www.frevillefranck.fr l'identité des différents intervenants dans
+              le cadre de sa réalisation et de son suivi.
             </p>
             <div className="bg-gray-50 p-6 rounded-lg">
               <p className="mb-2">
@@ -36,6 +36,12 @@ export function Legal() {
               </p>
               <p>
                 <strong>Responsable de la publication :</strong> Franck Fréville
+              </p>
+              <p>
+                <strong>SIREN :</strong> 930 761 572
+              </p>
+              <p>
+                <strong>SIRET :</strong> 930 761 572 00013
               </p>
             </div>
           </section>

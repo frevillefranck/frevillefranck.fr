@@ -23,7 +23,7 @@ export function Projects() {
     {
       title: 'Sarah et la Pâtisserie',
       description:
-        "Un site vitrine d'une pâtissière qui partage ses réalisatons. Réalisé avec React, Tailwin CSS et Strapi",
+        "Un site vitrine d'une pâtissière qui partage ses réalisations. Réalisé avec React, Tailwind CSS et Strapi",
       image: '/images/sarahetlapatisserie.png',
       tags: ['React', 'Tailwind CSS', 'Strapi'],
       url: 'https://sarahetlapatisserie.fr',
